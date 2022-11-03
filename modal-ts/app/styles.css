@@ -1,0 +1,54 @@
+* {
+  box-sizing: border-box;
+}
+
+html {
+  font-family: sans-serif;
+}
+
+body {
+  margin: 0;
+  background-color: whitesmoke;
+  color: #2e2931;
+}
+
+ul {
+  list-style: none;
+  padding: 0;
+  margin: 0;
+}
+
+.center {
+  text-align: center;
+}
+
+.layout {
+  display: grid;
+  grid-template-columns: 25% 75%;
+}
+
+.sidebar {
+  height: 100vh;
+  padding: 0 2rem;
+  background-color: #29252e;
+}
+
+.sidebar ul {
+  display: flex;
+  flex-direction: column;
+}
+
+.sidebar li {
+  padding: 1rem;
+  border-bottom: 2px solid #46404c;
+  color: white;
+}
+
+.sidebar a {
+  color: #cda7fa;
+  text-decoration: none;
+}
+
+.sidebar a:hover {
+  color: #b47df7;
+}
